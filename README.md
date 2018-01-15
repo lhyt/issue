@@ -5,4 +5,5 @@
 <li><a href="https://github.com/lhyt/issue/issues/2">从documentFragement到手写vue</a></li>
 <li><a href="https://github.com/lhyt/issue/issues/3">常见的排序算法</a></li>
 <li><a href="https://github.com/lhyt/issue/issues/4">关于JS的正则表达式</a></li>
+<li><a href="https://github.com/lhyt/issue/issues/5">关于js类型转换骚操作</a></li>
 </ul>
