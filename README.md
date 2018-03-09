@@ -8,5 +8,5 @@
 <li><a href="https://github.com/lhyt/issue/issues/4">关于JS的正则表达式</a></li>
 <li><a href="https://github.com/lhyt/issue/issues/5">关于js类型转换骚操作</a></li>
 <li><a href="https://github.com/lhyt/issue/issues/6">聊聊w3c刷题遇到的小坑</a></li>  
-  <li><a href="https://github.com/lhyt/issue/issues/7">函数式  编程</a></li>
+<li><a href="https://github.com/lhyt/issue/issues/7">函数式编程</a></li>
 </ul>
