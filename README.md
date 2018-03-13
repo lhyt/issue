@@ -9,4 +9,5 @@
 <li><a href="https://github.com/lhyt/issue/issues/5">关于js类型转换骚操作</a></li>
 <li><a href="https://github.com/lhyt/issue/issues/6">聊聊w3c刷题遇到的小坑</a></li>  
 <li><a href="https://github.com/lhyt/issue/issues/7">函数式编程</a></li>
+<li><a href="https://github.com/lhyt/issue/issues/8">从MDN的canvas动画例子的启发</a></li>
 </ul>
