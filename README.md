@@ -11,4 +11,5 @@
 <li><a href="https://github.com/lhyt/issue/issues/7">函数式编程</a></li>
 <li><a href="https://github.com/lhyt/issue/issues/8">从MDN的canvas动画例子的启发</a></li>
 <li><a href="https://github.com/lhyt/issue/issues/9">http、浏览器相关</a></li>
+<li><a href="https://github.com/lhyt/issue/issues/10">深入理解双向绑定、单向数据流</a></li>
 </ul>
