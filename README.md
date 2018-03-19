@@ -10,4 +10,5 @@
 <li><a href="https://github.com/lhyt/issue/issues/6">聊聊w3c刷题遇到的小坑</a></li>  
 <li><a href="https://github.com/lhyt/issue/issues/7">函数式编程</a></li>
 <li><a href="https://github.com/lhyt/issue/issues/8">从MDN的canvas动画例子的启发</a></li>
+<li><a href="https://github.com/lhyt/issue/issues/9">http、浏览器相关</a></li>
 </ul>
