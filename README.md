@@ -12,4 +12,6 @@
 <li><a href="https://github.com/lhyt/issue/issues/8">从MDN的canvas动画例子的启发</a></li>
 <li><a href="https://github.com/lhyt/issue/issues/9">http、浏览器相关</a></li>
 <li><a href="https://github.com/lhyt/issue/issues/10">从单向数据到双向数据绑定</a></li>
+  <li><a href="https://github.com/lhyt/issue/issues/11">今日头条2018春招3.24研发类笔试题</a></li>
+  <li><a href="https://github.com/lhyt/issue/issues/12">你真的精通js了吗</a></li>
 </ul>
