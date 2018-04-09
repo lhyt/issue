@@ -7,20 +7,40 @@
 	       _\/\\\_____________\/\\\__________\/\\\_______\/\\_________________\/\\\_______
 	        _\/\\\\\\\\\\\\\\__\/\\\__________\/\\\_______\/\\_________________\/\\\______
 	         _\//////////////___\///___________\///________\//__________________\/\\\_____
-<h1>lhyt的个人博客</h1>
-<p>从此开始写博客的日子，记录学过的，不要让自己忘记</p>
-<p>所有的都是个人心得和总结，转载时请注明来源于<b>lhyt的github</b></p>
-<ul>
-<li><a href="https://github.com/lhyt/issue/issues/1">浅谈js内存</a></li>
-<li><a href="https://github.com/lhyt/issue/issues/2">从documentFragement到手写vue</a></li>
-<li><a href="https://github.com/lhyt/issue/issues/3">常见的排序算法</a></li>
-<li><a href="https://github.com/lhyt/issue/issues/4">关于JS的正则表达式</a></li>
-<li><a href="https://github.com/lhyt/issue/issues/5">关于js类型转换骚操作</a></li>
-<li><a href="https://github.com/lhyt/issue/issues/6">聊聊w3c刷题遇到的小坑</a></li>  
-<li><a href="https://github.com/lhyt/issue/issues/7">函数式编程</a></li>
-<li><a href="https://github.com/lhyt/issue/issues/8">从MDN的canvas动画例子的启发</a></li>
-<li><a href="https://github.com/lhyt/issue/issues/9">http、浏览器相关</a></li>
-<li><a href="https://github.com/lhyt/issue/issues/10">从单向数据到双向数据绑定</a></li>
-<li><a href="https://github.com/lhyt/issue/issues/11">今日头条2018春招3.24研发类笔试题</a></li>
-<li><a href="https://github.com/lhyt/issue/issues/12">你真的精通js了吗</a></li>
-</ul>
+
+# lhyt的个人博客
+## 从此开始写博客的日子，记录学过的，不要让自己忘记
+### 所有的都是个人心得和总结，转载时请注明来源于**lhyt的github**
+
+> # 深基础系列
+>> [浅谈js内存](https://github.com/lhyt/issue/issues/1)
+
+> # 源码与深究系列
+>> [从documentFragement到手写vue](https://github.com/lhyt/issue/issues/2)
+
+>> [函数式编程](https://github.com/lhyt/issue/issues/7)
+
+>> [从单向数据到双向数据绑定](https://github.com/lhyt/issue/issues/10)
+
+>> [模块化](https://github.com/lhyt/issue/issues/13)
+
+> # 真的精通js了吗系列
+>> [正则表达式](https://github.com/lhyt/issue/issues/4)
+
+>> [关于js类型转换骚操作](https://github.com/lhyt/issue/issues/5)
+
+>> [其他冷门操作](https://github.com/lhyt/issue/issues/12)
+
+> # 算法系列
+>> [常见的排序算法](https://github.com/lhyt/issue/issues/3)
+
+>> [聊聊w3c刷题遇到的小坑](https://github.com/lhyt/issue/issues/6)
+
+>> [今日头条2018春招3.24研发类笔试题](https://github.com/lhyt/issue/issues/11)
+
+> # html+css系列
+>> [从MDN的canvas动画例子的启发](https://github.com/lhyt/issue/issues/8)
+
+> # 计算机网络、浏览器系列
+>> [http、浏览器相关](https://github.com/lhyt/issue/issues/9)
+
