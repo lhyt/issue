@@ -15,6 +15,8 @@
 > # 基础系列
 >> [浅谈js内存](https://github.com/lhyt/issue/issues/1)
 
+>> [this、call、apply、bind、继承、原型链 ](https://github.com/lhyt/issue/issues/14)
+
 > # 源码与深究系列
 >> [从documentFragement到手写vue](https://github.com/lhyt/issue/issues/2)
 
