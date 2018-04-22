@@ -13,7 +13,7 @@
 ### 所有的都是个人心得和总结，转载时请注明来源于*lhyt的github*
 
 > # 基础系列
->> [浅谈js内存](https://github.com/lhyt/issue/issues/1)
+>> [浅谈js内存与闭包](https://github.com/lhyt/issue/issues/1)
 
 >> [this、call、apply、bind、继承、原型链 ](https://github.com/lhyt/issue/issues/14)
 
