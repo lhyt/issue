@@ -42,6 +42,7 @@
 
 > # html+css系列
 >> [从MDN的canvas动画例子的启发](https://github.com/lhyt/issue/issues/8)
+>> [css的基础原理](https://github.com/lhyt/issue/issues/15)
 
 > # 计算机网络、浏览器系列
 >> [http、浏览器相关](https://github.com/lhyt/issue/issues/9)
