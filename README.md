@@ -26,12 +26,16 @@
 
 >> [模块化](https://github.com/lhyt/issue/issues/13)
 
+>> [前端路由](https://github.com/lhyt/issue/issues/18)
+
 > # 真的精通js了吗系列
 >> [正则表达式](https://github.com/lhyt/issue/issues/4)
 
 >> [关于js类型转换骚操作](https://github.com/lhyt/issue/issues/5)
 
 >> [其他冷门操作](https://github.com/lhyt/issue/issues/12)
+
+>> [盘点前端群的无脑回答](https://github.com/lhyt/issue/issues/17)
 
 > # 算法系列
 >> [常见的排序算法](https://github.com/lhyt/issue/issues/3)
