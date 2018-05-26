@@ -17,6 +17,8 @@
 
 >> [this、call、apply、bind、继承、原型链 ](https://github.com/lhyt/issue/issues/14)
 
+>> [不同页面的通信与跨域](https://github.com/lhyt/issue/issues/22)
+
 > # 源码与深究系列
 >> [从documentFragement到手写vue](https://github.com/lhyt/issue/issues/2)
 
