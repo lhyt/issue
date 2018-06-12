@@ -52,6 +52,9 @@
 
 >> [js版本的BFS&DFS](https://github.com/lhyt/issue/issues/16)
 
+>> [关于js随机数生成器的扩展 ](https://github.com/lhyt/issue/issues/23)
+
+
 > # html+css系列
 >> [从MDN的canvas动画例子的启发](https://github.com/lhyt/issue/issues/8)
 
