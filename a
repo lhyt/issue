@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+class Element {
+	constructor (type, props, children) {
+		this.type = type
+		this.props = props
+		this.children = children || []
+	}
+}
+
+function createElement (type, props, children) {
+	return new Element(type, props, children)
+}
+
+
+//将vnode转化为真正的dom
+function render (vnode) {
+	let el = document.createElement(vnode.type)
+	for(let key in vnode.props){
+		el.setAttribute(key, vnode.props[key])
+	}
+	vnode.children&&vnode.children.forEach(child=>{//递归节点，如果是文本节点则直接插入
+			child = (child instanceof Element) ? 
+			render(child):
+			document.createTextNode(child)
+			el.appendChild(child)
+		})
+	return el
+}
+let allIndex = 0
+
+function  diff (oldTree, newTree) {
+	const patches = {}//差异表记录差异
+	let index = 0//记录开始索引
+	dfswalk(oldTree, newTree, index, patches)//先序深度优先遍历
+	return patches
+}
+
+function dfswalk (oldNode, newNode, index, patches) {
+	const currentPatch = []
+	if(!newNode){//判断节点是否被删除，记录被删的index
+		currentPatch.push({type: 'REMOVE',index})
+	}else if(typeof oldNode === 'string' && typeof newNode === 'string'){//处理文本节点
+		if(oldNode !== newNode){
+			currentPatch.push({type: 'TEXT',text:newNode})
+		}
+	}else if(oldNode.type === newNode.type){//如果节点类型相同
+		//对比属性
+		let patch = props_diff(oldNode.props, newNode.props)
+		//如果属性有差异则写入当前的差异数组
+		Object.keys(patch).length && (currentPatch.push({type: 'ATTR',patch}))
+		//对比子节点
+		children_diff(oldNode.children, newNode.children, index, patches)
+	}else{//节点类型不同
+		currentPatch.push({type: 'REPLACE',newNode})
+	}
+	//将当前差异数组写入差异表
+	currentPatch.length && (patches[index] = currentPatch)
+}
+
+function children_diff (oldChildren, newChildren, index, patches) {
+	//对每一个子节点深度优先遍历
+	oldChildren.forEach((child,i)=>{
+		//index在每一次进dfs的时候要加一，作为唯一key
+		dfswalk(child, newChildren[i], ++allIndex, patches)
+	})
+}
+
+function props_diff(oldProp, newProp){
+	const patch = {}
+	//判断新老属性的差别
+	for(let k in oldProp){
+		//如果属性不同，写入patch
+		oldProp[k] !== newProp[k] && (patch[k] = newProp[k])
+	}
+	//新节点新属性
+	for(let k in newProp){
+		//判断老节点的属性在新节点里面是否存在，没有就写入patch
+		!oldProp.hasOwnProperty(k) && (patch[k] = newProp[k])
+	}	
+	return patch
+}
+
+let allPatches//根据差异还原dom，记录差异表
+let Index = 0//索引从第一个节点开始
+function update (HTMLNode, patches) {//根据差异表更新html元素，vnode转换为真正的节点
+	allPatches = patches
+	htmlwalk(HTMLNode)//遍历节点，最开始从第一个节点遍历
+}
+
+function htmlwalk (HTMLNode) {
+	const currentPatch = allPatches[Index++]//遍历一个节点，就下一个节点
+	const childNodes = HTMLNode.childNodes
+	//有子节点就后序dfs
+	childNodes && childNodes.forEach(node=>{
+		htmlwalk (node)
+	})
+	//对当前的差异数组进行遍历，根据差异还原元素
+	currentPatch && currentPatch.length && currentPatch.forEach(patch=>{
+		doPatch(HTMLNode, patch)
+	})
+}
+
+function doPatch (node, patch) {//还原过程，其实就是dom操作
+		console.log(patch.type)
+	switch (patch.type) {
+		case 'REMOVE' :
+		console.log(node)
+		node.parentNode.removeChild(node)
+		break
+		case 'TEXT' :
+		node.textContent = patch.text
+		break
+		case 'ATTR' :
+		for(let k in patch.patch){
+		console.log(node)
+			const v = patch.patch[k]
+			if(v){
+				node.setAttribute(k, v)
+			}else{
+				node.removeAttribute(k)
+			}
+		}
+		break
+		case 'REPLACE' :
+		const newNode = (patch.newNode instanceof Element) ?
+		render(patch.newNode) : document.createTextNode(patch.newNode)
+		node.parentNode.replaceChild(newNode, node)
+		console.log(node)
+		break						
+	}
+}
+//创建虚拟dom
+var v = createElement('ul',{class:'list'},[
+		createElement('li',{class:'item'},['a']),
+		createElement('li',{class:'item'},['b']),
+		createElement('li',{class:'item'},['c'])
+	])
+//dom diff
+var d = diff(v,createElement('ul',{class:'list'},[
+		createElement('li',{class:'item1'},['a']),
+		createElement('div',{class:'item'},['b'])
+	]))
+//vnode渲染成真正的dom
+var el =  render(v)
+//挂载dom
+document.body.appendChild(el)
+//diff后更新dom
+update (el, d)
+</script>
+</html>
