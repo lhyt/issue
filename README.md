@@ -66,6 +66,8 @@
 
 >> [css的基础原理](https://github.com/lhyt/issue/issues/15)
 
+>> [css菜鸡的自我救赎](https://github.com/lhyt/issue/issues/28)
+
 > # 计算机网络、浏览器系列
 >> [http、浏览器相关](https://github.com/lhyt/issue/issues/9)
 
