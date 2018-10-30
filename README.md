@@ -40,6 +40,8 @@
 
 >> [node框架express的研究](https://github.com/lhyt/issue/issues/25)
 
+>> [拥抱更底层技术——从CSS变量到Houdini](https://github.com/lhyt/issue/issues/29)
+
 > # 真的精通js了吗系列
 >> [正则表达式](https://github.com/lhyt/issue/issues/4)
 
