@@ -9,7 +9,7 @@
 	         _\//////////////___\///___________\///________\//__________________\/\\\_____
 		 
 
-<a href="#基础系列"><img src="https://img.shields.io/badge/>-javascript-red.svg"/></a>
+<a href="#基础系列"><img src="https://img.shields.io/badge/>-issue-red.svg"/></a>
 
 # lhyt的个人博客
 ## 从此开始写博客的日子，记录学过的，不要让自己忘记
