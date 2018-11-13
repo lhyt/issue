@@ -45,6 +45,8 @@
 
 >> [拥抱更底层技术——从CSS变量到Houdini](https://github.com/lhyt/issue/issues/29)
 
+>> [名字随便起——es6 Proxy](https://github.com/lhyt/issue/issues/30)
+
 > # 真的精通js了吗系列
 >> [正则表达式](https://github.com/lhyt/issue/issues/4)
 
