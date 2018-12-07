@@ -47,6 +47,8 @@
 
 >> [名字随便起——es6 Proxy](https://github.com/lhyt/issue/issues/30)
 
+>> [从一次react异步setState引发的思考](https://github.com/lhyt/issue/issues/31)
+
 > # 真的精通js了吗系列
 >> [正则表达式](https://github.com/lhyt/issue/issues/4)
 
