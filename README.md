@@ -26,6 +26,8 @@
 
 >> [Rxjs光速入门](https://github.com/lhyt/issue/issues/26)
 
+>> [一次现网翻车经历与总结](https://github.com/lhyt/issue/issues/32)
+
 > # 源码与深究系列
 >> [从documentFragement到手写vue](https://github.com/lhyt/issue/issues/2)
 
