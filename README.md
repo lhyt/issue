@@ -28,6 +28,8 @@
 
 >> [一次现网翻车经历与总结](https://github.com/lhyt/issue/issues/32)
 
+>> [一次preact迁移到react16总结](https://github.com/lhyt/issue/issues/34)
+
 > # 源码与深究系列
 >> [从documentFragement到手写vue](https://github.com/lhyt/issue/issues/2)
 
