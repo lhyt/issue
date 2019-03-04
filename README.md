@@ -31,6 +31,8 @@
 >> [一次preact迁移到react16总结](https://github.com/lhyt/issue/issues/34)
 
 > # 源码与深究系列
+>> [react hook的初步研究](https://github.com/lhyt/issue/issues/35)
+
 >> [从documentFragement到手写vue](https://github.com/lhyt/issue/issues/2)
 
 >> [函数式编程](https://github.com/lhyt/issue/issues/7)
