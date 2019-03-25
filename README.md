@@ -55,6 +55,8 @@
 
 >> [从一次react异步setState引发的思考](https://github.com/lhyt/issue/issues/31)
 
+>> [元编程之——symbol](https://github.com/lhyt/issue/issues/36)
+
 > # 真的精通js了吗系列
 >> [正则表达式](https://github.com/lhyt/issue/issues/4)
 
