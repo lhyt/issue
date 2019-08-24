@@ -34,7 +34,7 @@
 [react hook的初步研究](https://github.com/lhyt/issue/issues/35)  |
 [从一次react异步setState引发的思考](https://github.com/lhyt/issue/issues/31)  |
 [一次preact迁移到react16总结](https://github.com/lhyt/issue/issues/34)  |
-[react hook——你可能不是“我”所认识的useEffect]](https://github.com/lhyt/issue/issues/37)  |
+[react hook——你可能不是“我”所认识的useEffect](https://github.com/lhyt/issue/issues/37)  |
 [手把手带你用react hook撸一遍class组件的特性](https://github.com/lhyt/issue/issues/38)  |
 [可能你的react函数组件从来没有优化过](https://github.com/lhyt/issue/issues/39)
 
@@ -89,7 +89,8 @@
 	<summary>🌹canvas+3d系列</summary>
 	
 [从MDN的canvas动画例子的启发](https://github.com/lhyt/issue/issues/8)  |
-[web游戏中的自动跟随实现](https://github.com/lhyt/issue/issues/40)
+[web游戏中的自动跟随实现](https://github.com/lhyt/issue/issues/40)  |
+[一步步带你实现web全景看房——three.js](https://github.com/lhyt/issue/issues/41)
 
 </details>
 
