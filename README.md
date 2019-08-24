@@ -90,7 +90,7 @@
 	
 [从MDN的canvas动画例子的启发](https://github.com/lhyt/issue/issues/8)  |
 [web游戏中的自动跟随实现](https://github.com/lhyt/issue/issues/40)  |
-[一步步带你实现web全景看房——three.js](https://github.com/lhyt/issue/issues/41)
+[一步步带你实现web全景看房——three.js](https://github.com/lhyt/issue/issues/42)
 
 </details>
 
