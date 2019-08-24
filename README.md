@@ -11,9 +11,9 @@
 
 <a href="#基础系列"><img src="https://img.shields.io/badge/>-issue-red.svg"/></a>
 
-# lhyt的个人博客
-## 从此开始写博客的日子，记录学过的，不要让自己忘记
-### 所有的都是个人心得和总结，转载时请注明来源于*lhyt的github*
+# 🆕lhyt的个人沉淀
+## 📖从此开始写博客的日子，记录学过的，不要让自己忘记
+### ❤️所有的都是个人心得和总结，转载时请注明来源于*lhyt的github*
 
 <details>
 	<summary>📖基础系列</summary>
