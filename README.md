@@ -17,13 +17,9 @@
 
 <details>
 	<summary>📖基础系列</summary>
-	
 
 [this、call、apply、bind、继承、原型链 ](https://github.com/lhyt/issue/issues/14)  |
-[页面的通信与跨域](https://github.com/lhyt/issue/issues/20)  |
-[浏览器原理](https://github.com/lhyt/issue/issues/22)  |
-[Rxjs光速入门](https://github.com/lhyt/issue/issues/26)  |
-[一次现网翻车经历与总结](https://github.com/lhyt/issue/issues/32)
+[Rxjs光速入门](https://github.com/lhyt/issue/issues/26)
 
 
 </details>
@@ -51,23 +47,22 @@
 [前端路由](https://github.com/lhyt/issue/issues/18)  |
 [pwa+webpack，初探与踩坑](https://github.com/lhyt/issue/issues/21)  |
 [小白大战diff算法](https://github.com/lhyt/issue/issues/24)  |
-[node框架express的研究](https://github.com/lhyt/issue/issues/25)  |
-[拥抱更底层技术——从CSS变量到Houdini](https://github.com/lhyt/issue/issues/29)  |
-[名字随便起——es6 Proxy](https://github.com/lhyt/issue/issues/30)  |
-[元编程之——symbol](https://github.com/lhyt/issue/issues/36)
+[node框架express的研究](https://github.com/lhyt/issue/issues/25)
 
 </details>
 
 
 
 <details>
-	<summary>🌲真的精通js了吗系列</summary>
+	<summary>🌲深究原生js系列</summary>
 	
 [正则表达式](https://github.com/lhyt/issue/issues/4)  |
 [关于js类型转换骚操作](https://github.com/lhyt/issue/issues/5)  |
 [其他冷门操作](https://github.com/lhyt/issue/issues/12)  |
 [盘点前端群的无脑回答](https://github.com/lhyt/issue/issues/17)  |
-[面试官：你为什么这么强，什么都敢盘(reduce)](https://github.com/lhyt/issue/issues/41)
+[面试官：你为什么这么强，什么都敢盘(reduce)](https://github.com/lhyt/issue/issues/41)  |
+[名字随便起——es6 Proxy](https://github.com/lhyt/issue/issues/30)  |
+[元编程之——symbol](https://github.com/lhyt/issue/issues/36)
 
 </details>
 
@@ -99,7 +94,8 @@
 	<summary>😊html+css系列</summary>
 
 [css的基础原理](https://github.com/lhyt/issue/issues/15)  |
-[css菜鸡的自我救赎](https://github.com/lhyt/issue/issues/28)
+[css菜鸡的自我救赎](https://github.com/lhyt/issue/issues/28)  |
+[拥抱更底层技术——从CSS变量到Houdini](https://github.com/lhyt/issue/issues/29)
 
 </details>
 
@@ -107,7 +103,17 @@
 <details>
 	<summary>💻计算机网络、浏览器系列</summary>
 	
-[http、浏览器相关](https://github.com/lhyt/issue/issues/9)
+[http、浏览器相关](https://github.com/lhyt/issue/issues/9)  |
+[页面的通信与跨域](https://github.com/lhyt/issue/issues/20)  |
+[浏览器原理](https://github.com/lhyt/issue/issues/22)  
+
+</details>
+
+<details>
+	<summary>👋软技能系列</summary>
+	
+
+[一次现网翻车经历与总结](https://github.com/lhyt/issue/issues/32)
 
 </details>
 
