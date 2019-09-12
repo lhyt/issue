@@ -113,8 +113,8 @@
 	<summary>👋软技能系列</summary>
 	
 
-[一次现网翻车经历与总结](https://github.com/lhyt/issue/issues/32)
-[前端工程师如何持续保持热情（一）](https://github.com/lhyt/issue/issues/43)
+[一次现网翻车经历与总结](https://github.com/lhyt/issue/issues/32)  |
+[前端工程师如何持续保持热情（一）](https://github.com/lhyt/issue/issues/43)  |
 [前端工程师如何持续保持热情（二）](https://github.com/lhyt/issue/issues/44)
 
 </details>
