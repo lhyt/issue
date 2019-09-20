@@ -75,7 +75,8 @@
 [聊聊w3c刷题遇到的小坑](https://github.com/lhyt/issue/issues/6)  |
 [今日头条2018春招3.24研发类笔试题](https://github.com/lhyt/issue/issues/11)  |
 [js版本的BFS&DFS](https://github.com/lhyt/issue/issues/16)  |
-[关于js随机数生成器的扩展 ](https://github.com/lhyt/issue/issues/23)
+[关于js随机数生成器的扩展 ](https://github.com/lhyt/issue/issues/23)  |
+[前端工程师彻底征服树结构组件的秘籍](https://github.com/lhyt/issue/issues/46)
 
 </details>
 
